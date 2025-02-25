@@ -1,0 +1,22 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.fieldset{
+    align-items: center;
+    margin-top: 40vh;
+    justify-content: center;
+    width: 70vh;
+    border: 2px solid yellowgreen;
+}
+legend{
+    background-color: aqua;
+
+}
+*{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}

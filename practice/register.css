@@ -1,0 +1,47 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color:lavender;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fieldset{
+    align-items: center;
+    justify-content: center;
+    width: 50vh;
+    border: 2px solid yellowgreen;
+}
+*
+{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+h2{
+    font-size: larger;
+}
+.legend{
+    background-color: aqua;
+}
+@media screen and (min-widht:400px){
+    body{
+        background-color: lavender;
+    }
+}
+@media screen and (min-width:800px)
+{
+    body{
+        background-color: lightblue;
+           }
+}
+@media print{
+    *{
+        padding: 40px;
+    }
+body{
+    font-family: cursive;
+}
+h2{
+    font-style: italic;
+}
+}

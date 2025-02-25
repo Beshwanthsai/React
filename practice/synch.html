@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .output{
+            color: red;
+            font-size: 20px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 2px solid blue;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>hi this is synchronus and assynchronus example</h1>
+    <button onclick="syn()">hello </button>
+    <div class="output" id="output"></div>
+    <script>
+        document.getElementById("output").innerHTML = "click here to book the ticket";
+        function clearoutput()
+        {
+            output.innerHTML = "";
+        }
+        function syn()
+        {
+           
+            output.innerHTML = "ticket is processing...";
+            setTimeout(() => {
+                output.innerHTML = "ticket booked successfully";
+            }, 1000);
+            
+        }
+    </script>
+</body>
+</html>

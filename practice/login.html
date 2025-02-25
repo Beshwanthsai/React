@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+  <script>
+        function fun1()
+        {
+            document.getElementById("signup").innerHTML="button clicked";
+        }
+  </script>
+</head>
+<body>
+  
+   <fieldset class="fieldsetm" >
+    <legend>Login here</legend>
+    <h1>Login here!</h1>
+    <label for="name">Name :</label>
+    <input type="text" id="name" name="username" required>
+    <br><br>
+    <label for="Password">Password :</label>
+    <input type="password" id="pwd" required>
+    <br>
+    <button action="fun1" onclick=fun1()>Sign up</button>
+        <p id="signup"></p>
+   </fieldset>
+</body>
+</html>

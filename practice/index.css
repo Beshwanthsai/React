@@ -1,0 +1,21 @@
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar a
+{
+    background-color: bisque;
+    color: blueviolet;
+   font-size: xx-large;
+    
+}
+.navbar{
+    background-color: blue;
+    padding-left: 2em;
+    gap: 40px;
+    size: 100px;
+}
+*{
+    font-size: larger;
+}
